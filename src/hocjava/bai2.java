@@ -12,5 +12,6 @@ public class bai2 {
 		System.out.printf("Chu vi = %.0f", (dai + rong) * 2);
 		System.out.printf("\nDien tich = %.0f", dai * rong);
 		System.out.printf("\nCanh nho nhat = %.0f", Math.min(dai, rong));
+		scanner.close();
 	}
 }
