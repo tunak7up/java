@@ -2,7 +2,7 @@ package lab01;
 
 import javax.swing.JOptionPane;
 
-public class ex3_hellonamedialog {
+public class Ex3_hellonamedialog {
 	public static void main(String[] args) {
 		String result;
 		result = JOptionPane.showInputDialog("Nguyen Anh Tuan 5772 - Nhap ten vao day"); // hien 1 o de input, o do chua
