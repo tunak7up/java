@@ -3,7 +3,7 @@ package lab01;
 
 import javax.swing.JOptionPane;
 
-public class Ex6_giaiphuongtrinh {
+public class Ex60_giaiphuongtrinh {
 	public static void main(String[] args) {
 		System.out.println("Chon che do:");
 		System.out.println("1. Giai phuong trinh bac nhat 1 an"); // ax + b = c;
