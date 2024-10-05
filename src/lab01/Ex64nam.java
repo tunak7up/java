@@ -17,19 +17,19 @@ public class Ex64nam {
 		if (thang == 1 || thang0.equals("Jan") || thang == 3 || thang0.equals("Mar") || thang == 5
 				|| thang0.equals("May") || thang == 7 || thang0.equals("Jul") || thang == 8 || thang0.equals("Aug")
 				|| thang == 10 || thang0.equals("Oct") || thang == 12 || thang0.equals("Dec")) {
-			JOptionPane.showMessageDialog(null, "Thang " + thang0 + " co 31 ngay");
+			JOptionPane.showMessageDialog(null, "Thang " + thang0 + " nam " + nam0 + " co 31 ngay");
 		} else if (thang == 2 || thang0.equals("Feb")) {
 			if (nam % 4 == 0) {
 				if (nam % 400 == 0) {
-					JOptionPane.showMessageDialog(null, "Nam nhuan: thang 2 co 29 ngay");
+					JOptionPane.showMessageDialog(null, "Nam " + nam0 + " nhuan: thang 2 co 29 ngay");
 				} else if (nam % 100 == 0) {
-					JOptionPane.showMessageDialog(null, "Nam ko nhuan: thang 2 co 28 ngay");
+					JOptionPane.showMessageDialog(null, "Nam " + nam0 + " ko nhuan: thang 2 co 28 ngay");
 				} else
-					JOptionPane.showMessageDialog(null, "Nam nhuan: thang 2 co 29 ngay");
+					JOptionPane.showMessageDialog(null, "Nam " + nam0 + " nhuan: thang 2 co 29 ngay");
 			} else
-				JOptionPane.showMessageDialog(null, "Nam ko nhuan: thang 2 co 28 ngay");
+				JOptionPane.showMessageDialog(null, "Nam " + nam0 + " ko nhuan: thang 2 co 28 ngay");
 
 		} else
-			JOptionPane.showMessageDialog(null, "Thang" + thang0 + " co 30 ngay");
+			JOptionPane.showMessageDialog(null, "Thang " + thang0 + " nam " + nam0 + " co 30 ngay");
 	}
 }

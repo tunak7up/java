@@ -25,6 +25,6 @@ public class Ex63vesao {
 			// xuong dong sau moi hang
 			System.out.println();
 		}
-		System.exit(0);
+		sc.close();
 	}
 }

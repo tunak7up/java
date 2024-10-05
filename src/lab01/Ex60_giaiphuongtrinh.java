@@ -73,7 +73,6 @@ public class Ex60_giaiphuongtrinh {
 				if (delta > 0) {
 					double x1 = (-b + Math.sqrt(delta)) / (2 * a);
 					double x2 = (-b - Math.sqrt(delta)) / (2 * a);
-					System.out.println(Math.sqrt(delta));
 					JOptionPane.showMessageDialog(null, "2 nghiem x1 = " + x1 + " va x2 = " + x2);
 				} else if (delta == 0) {
 					double x1 = -b / (2 * a);

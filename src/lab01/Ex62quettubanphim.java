@@ -16,5 +16,6 @@ public class Ex62quettubanphim {
 //nextByte(), nextShort(), nextLong()
 //nextFloat(), nextBoolean()
 		System.out.println("Mrs/Ms." + strName + "," + iAge + " years old." + "Your height is" + dHeight + ".");
+		keyboard.close();
 	}
 }
