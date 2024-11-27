@@ -2,3 +2,4 @@
 java là ngôn ngữ lập trình truyền theo giá trị
 Giải thích: bởi vì Java là ngôn ngữ truyền theo giá trị, nên khi gọi  hàm swap  không làm thay đổi  giá trị của 2 object được truyền vào hàm là tuan1 và tuan2
 Khi gọi hàm changeTitle, trong hàm đó có gọi đến setter của class Dvd là setTitle nên dữ liệu trong object tuan1 sẽ bị thay đổi
+blalblasd
